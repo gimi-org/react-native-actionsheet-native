@@ -21,7 +21,7 @@ public class ActionSheetPackage implements ReactPackage {
         return modules;
     }
 
-    @Override
+    // deprecasted RN 0.47
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
